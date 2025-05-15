@@ -1,9 +1,7 @@
 {
-  "name": "f1lm",
-  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npx vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -16,8 +14,10 @@
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7"
   },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
   "main": "/index.js",
-  "devDependencies": {},
   "browserslist": {
     "production": [
       ">0.2%",
